@@ -22,7 +22,7 @@ spec:
       - name: my-key
       containers:
       - name: app01
-        image: registry.hub.docker.com/wasiulhaq/app01
+        image: registry.hub.docker.com/ashrafulislamcs/app01
         imagePullPolicy: Always
         volumeMounts:
         - name: dir
